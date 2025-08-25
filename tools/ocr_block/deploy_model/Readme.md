@@ -1,0 +1,4 @@
+1. 所有版本OCR使用的Det模型都是inference/model_v1/db_mv3
+2. General的Rec使用的模型是inference/general/en_PP-OCRv3_rec_infer
+3. Iupac的Rec使用的模型是inference/model_v3/SVTR_rec_pretrain_epoch_3_not_mix_right
+4. Det_general暂时没用

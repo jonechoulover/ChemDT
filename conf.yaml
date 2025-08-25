@@ -1,0 +1,13 @@
+db:
+  db_path: "./chemDTD.db"
+  batch_size: 64
+
+
+patents:
+  dir: "./data_dir"
+
+
+
+visualization:
+  min_mol_weight: 100
+  max_molecules: 100000
