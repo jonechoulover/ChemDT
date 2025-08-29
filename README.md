@@ -15,7 +15,7 @@
 1. pull docker image
 
 ```
-docker push registry.cn-beijing.aliyuncs.com/hilab_space/chemdt:v1
+docker pull registry.cn-beijing.aliyuncs.com/hilab_space/chemdt:v1
 ```
 
 ```
