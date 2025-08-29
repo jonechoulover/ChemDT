@@ -25,11 +25,11 @@ docker pull registry.cn-beijing.aliyuncs.com/hilab_space/pdf_process:v1
 2. start the docker service
 
 ```
-docker run --rm -e is_debug=N -e dev_or_pro=dev -p 5533:5533 chemdt:v1
+docker run --rm -e is_debug=N -e dev_or_pro=dev -p 5533:5533 registry.cn-beijing.aliyuncs.com/hilab_space/chemdt:v1
 ```
 
 ```
-docker run --rm -p 3114:3080 pdf_process:v1
+docker run --rm -p 3114:3080 registry.cn-beijing.aliyuncs.com/hilab_space/pdf_process:v1
 ```
 
 3. Install envirnment
@@ -114,7 +114,7 @@ python to_db.py
 
 1. Start webserver and wait a moment to let the front-end to load all your data. 
 ```sh
-streamlit run app.py --server.addres 0.0.0.0 --server.port 5001
+streamlit run app.py --server.address 0.0.0.0 --server.port 5001
 ```
 2. View your app in your browser with port 5001
 

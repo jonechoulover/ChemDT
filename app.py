@@ -17,7 +17,7 @@ import streamlit as st
 root_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(os.path.dirname(root_dir))
 
-from ChemicalNameRecognition.to_db import Csv2DB
+from to_db import Csv2DB
 
 cfg = OmegaConf.load(os.path.join(root_dir, "conf.yaml"))
 
